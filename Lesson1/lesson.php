@@ -20,7 +20,19 @@ $com1 ="Samsung <br>";
 $com2 ="Apple <br>";
 $com3 ="HassConsult <br>";
 $com4 ="Ctyonn <br>";
-echo $com1,$com2,$com3,$com4;
+$com5 ="Dell <br>";
+
+
+//Concatenation/Joining
+//joining a variable and variable: use the dot operator
+echo $com1.$com2;
+$car1="Benz";
+$car2="Bmw";
+
+echo $car1." ".$car2."<br>";
+//Joining a string and a variable
+echo "I love $car1 <br>";
+echo "I love $car2 and $car1 <br>";
 
 
 
@@ -35,3 +47,6 @@ echo $com1,$com2,$com3,$com4;
     magni maiores, nesciunt obcaecati perspiciatis quas quod rem
     temporibus, ullam voluptatum? Distinctio quod reiciendis sunt.
 </p>
+
+
+
