@@ -63,7 +63,7 @@ for($x = 0;$x <10;$x =+2){
 //from 0-100
 //divisible by 3 -fees
 //divisible by 5 -bars
-//divisible by botth 3 and 5 -feesbars
+//divisible by both 3 and 5 -feesbars
 
 $y = 0;
 for($y = 0;$y < 100;$y =+3){
@@ -72,6 +72,7 @@ for($y = 0;$y < 100;$y =+3){
 for($y = 0;$y < 100;$y =+5){
     echo "Bars"."<br>";
 }
+
 
 
 

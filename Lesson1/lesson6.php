@@ -35,14 +35,42 @@ foreach ($fruits as $matunda){
     echo $matunda."<br>";
 }
 
+//for(initial value;text value;increment value){
+//    code to execute
+//}
+for($x = 0; $x < count($fruits);$x++){
+//    echo out each item by accessing them using index numbers
+    echo $fruits[$x]."<br>";
+}
+$num_fruits = count($fruits);
+for($x = 0; $x < $num_fruits;$x++){
+//    echo out each item by accessing them using index numbers
+    echo $fruits[$x]."<br>";
+}
 
+//Associative array :1-populating directly
+$geek_fruits = array("Craig"=>"Mango","Steve"=>"Apple","Victor"=>"Mapera","Masoud"=>"Grapes");
 
+//Associative array :1-populating one by one
+$country_car_brand["Kenya"] = "Nyayo";
+$country_car_brand["Germany"] = array("Mercedes","BMw","Volkswagen");
+$country_car_brand["United States"] = "Ford";
+$country_car_brand["Japan"] = array("Toyota","Mitsubishi");
+$country_car_brand["China"] = "Hyundai";
+echo "<br>";
 
-
-
-
-
-
+//Accessing associative array item: use the keys
+//using foreach
+echo $country_car_brand["Kenya"];
+foreach ($country_car_brand["Germany"] as $ger){
+    echo $ger."<br>";
+}
+//using for loop
+$car_count = count($country_car_brand["Germany"]);//number of cars
+$cars_found_germany = $country_car_brand["Germany"];//actual indexed array in germany key
+for($i = 0; $i < $car_count; $i++){
+    echo $cars_found_germany[$i]."<br>";
+}
 
 
 
